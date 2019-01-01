@@ -1,0 +1,24 @@
+--- #marks yml begin
+id: 1
+date: 2019-01-01
+name:
+  firstname: Jon
+  secondname: Seth
+  address:
+    lines: | #multiline string "|"
+      458 Walkman
+      Suite
+    city: Bareilly
+    state: Uttar Pradesh
+    country: India
+product:
+  - orderid: 3f44453 # array start with "-"
+    quantity: 2
+    price: 100.00
+  - orderid: 53hd45
+    quantity: 1
+    price: 400.00
+tax : 243.00
+total: 843.00
+comments: >
+  Thank you for shopping with us.
