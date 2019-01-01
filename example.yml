@@ -20,5 +20,6 @@ product:
     price: 400.00
 tax : 243.00
 total: 843.00
-comments: >
-  Thank you for shopping with us.
+comments: > # greater than sign treat it as a single line
+  Thank you for shopping
+  with us.
