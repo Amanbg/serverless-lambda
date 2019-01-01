@@ -57,9 +57,14 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  hellopython:
+  hellopython-short-timeout:
     handler: handler.hellopython
-
+    timeout: 3
+    memorySize: 128
+  hellopython-long-timeout:
+    handler: handler.hellopython
+    timeout: 6
+    memorySize: 256
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
