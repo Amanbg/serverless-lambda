@@ -23,5 +23,5 @@
 #     }
 #     """
 def hellopython(event, context):
-    print 'hello'
+    print 'second-update'
     return 'hello-python'
